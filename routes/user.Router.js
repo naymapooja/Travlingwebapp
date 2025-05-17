@@ -1,3 +1,5 @@
+// User routes
+
 import { Router } from "express";
 import { SignUp, verifyEmail, resendEmail, Login,logout} from "../controller/user.Controller.js"
 import { planATour, updateTour, imagesUpload, searchTour } from "../controller/tour.Controller.js";
